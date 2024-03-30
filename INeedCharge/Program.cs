@@ -2,6 +2,7 @@
 using Serilog.Events;
 using Serilog.Filters;
 using Serilog;
+using Utils.Middlewares;
 
 #region Logger Configuration
 
@@ -70,7 +71,7 @@ try
     app.UseRouting();
 
     app.UseAuthorization();
-
+    app.UseMiddleware<ExceptionMiddleware>();
     app.MapControllerRoute(
         name: "default",
         pattern: "{controller=Home}/{action=Index}/{id?}");
