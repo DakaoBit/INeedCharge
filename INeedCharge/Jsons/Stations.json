@@ -1,0 +1,464 @@
+{
+  "Stations": [
+    {
+      "StationID": "33029464-S0303",
+      "StationName": "湖口服務區南站",
+      "Description": "小型車停車區，近駕駛人休息室",
+      "OperatorID": "33029464",
+      "OperationType": 1,
+      "PositionLat": 24.85738,
+      "PositionLon": 121.00878,
+      "Spaces": 7,
+      "ChargingPoints": 7,
+      "Connectors": [
+        {
+          "Type": 1,
+          "Power": 2,
+          "Quantity": 2
+        },
+        {
+          "Type": 2,
+          "Power": 2,
+          "Quantity": 3
+        },
+        {
+          "Type": 4,
+          "Power": 2,
+          "Quantity": 2
+        }
+      ],
+      "ServiceTime": "7x24小時",
+      "ParkingRate": "免費",
+      "ChargingRate": "iParking會員9.8元/度電;TESLA超級充電座10.5元/度電",
+      "Floors": "1樓",
+      "UsageRestriction": "本充電站限會員使用",
+      "PhotoURLs": [],
+      "Location": {
+        "Freeway": {
+          "Road": "國道1號",
+          "ServiceArea": "湖口服務區南站"
+        },
+        "Address": {
+          "City": "新竹縣",
+          "Town": "湖口鄉",
+          "Road": "鳳山村國強街",
+          "Lane": "1巷",
+          "Alley": "",
+          "No": "8號"
+        }
+      },
+      "Telephone": "0800-600-098"
+    },
+    {
+      "StationID": "33029464-S0304",
+      "StationName": "湖口服務區北站",
+      "Description": "小型車停車區，近盥洗室",
+      "OperatorID": "33029464",
+      "OperationType": 1,
+      "PositionLat": 24.86091,
+      "PositionLon": 121.01,
+      "Spaces": 7,
+      "ChargingPoints": 7,
+      "Connectors": [
+        {
+          "Type": 1,
+          "Power": 2,
+          "Quantity": 2
+        },
+        {
+          "Type": 2,
+          "Power": 2,
+          "Quantity": 3
+        },
+        {
+          "Type": 4,
+          "Power": 2,
+          "Quantity": 2
+        }
+      ],
+      "ServiceTime": "7x24小時",
+      "ParkingRate": "免費",
+      "ChargingRate": "iParking會員9.8元/度電;TESLA超級充電座10.5元/度電",
+      "Floors": "1樓",
+      "UsageRestriction": "本充電站限會員使用",
+      "PhotoURLs": [],
+      "Location": {
+        "Freeway": {
+          "Road": "國道1號",
+          "ServiceArea": "湖口服務區北站"
+        },
+        "Address": {
+          "City": "新竹縣",
+          "Town": "湖口鄉",
+          "Road": "鳳山村榮光路",
+          "Lane": "",
+          "Alley": "",
+          "No": "158號"
+        }
+      },
+      "Telephone": "0800-600-098"
+    },
+    {
+      "StationID": "33029464-S0305",
+      "StationName": "清水服務區",
+      "Description": "小型車停車A區",
+      "OperatorID": "33029464",
+      "OperationType": 1,
+      "PositionLat": 24.28122,
+      "PositionLon": 120.60137,
+      "Spaces": 7,
+      "ChargingPoints": 7,
+      "Connectors": [
+        {
+          "Type": 1,
+          "Power": 2,
+          "Quantity": 2
+        },
+        {
+          "Type": 2,
+          "Power": 2,
+          "Quantity": 3
+        },
+        {
+          "Type": 4,
+          "Power": 2,
+          "Quantity": 2
+        }
+      ],
+      "ServiceTime": "7x24小時",
+      "ParkingRate": "免費",
+      "ChargingRate": "iParking會員9.8元/度電;TESLA超級充電座10.5元/度電",
+      "Floors": "1樓",
+      "UsageRestriction": "本充電站限會員使用",
+      "PhotoURLs": [],
+      "Location": {
+        "Freeway": {
+          "Road": "國道3號",
+          "ServiceArea": "清水服務區"
+        },
+        "Address": {
+          "City": "台中市",
+          "Town": "清水區",
+          "Road": "吳厝里七鄰吳厝二街",
+          "Lane": "",
+          "Alley": "",
+          "No": "87號"
+        }
+      },
+      "Telephone": "0800-600-098"
+    },
+    {
+      "StationID": "33029464-S0306",
+      "StationName": "東山服務區",
+      "Description": "小型車停車區，近中油加油站",
+      "OperatorID": "33029464",
+      "OperationType": 1,
+      "PositionLat": 23.28652,
+      "PositionLon": 120.39633,
+      "Spaces": 7,
+      "ChargingPoints": 7,
+      "Connectors": [
+        {
+          "Type": 1,
+          "Power": 2,
+          "Quantity": 2
+        },
+        {
+          "Type": 2,
+          "Power": 2,
+          "Quantity": 3
+        },
+        {
+          "Type": 4,
+          "Power": 2,
+          "Quantity": 2
+        }
+      ],
+      "ServiceTime": "7x24小時",
+      "ParkingRate": "免費",
+      "ChargingRate": "iParking會員9.8元/度電;TESLA超級充電座10.5元/度電",
+      "Floors": "1樓",
+      "UsageRestriction": "本充電站限會員使用",
+      "PhotoURLs": [],
+      "Location": {
+        "Freeway": {
+          "Road": "國道3號",
+          "ServiceArea": "東山服務區"
+        },
+        "Address": {
+          "City": "台南市",
+          "Town": "東山區",
+          "Road": "枋子林",
+          "Lane": "",
+          "Alley": "",
+          "No": "74之6號"
+        }
+      },
+      "Telephone": "0800-600-098"
+    },
+    {
+      "StationID": "33029464-S0322",
+      "StationName": "關西服務區",
+      "Description": "小型車停車 I 區，現場備有一支TPC轉CCS1轉接頭；大貨車停車區 (供小型車充電)",
+      "OperatorID": "33029464",
+      "OperationType": 1,
+      "PositionLat": 24.80027,
+      "PositionLon": 121.19225,
+      "Spaces": 10,
+      "ChargingPoints": 10,
+      "Connectors": [
+        {
+          "Type": 1,
+          "Power": 2,
+          "Quantity": 5
+        },
+        {
+          "Type": 2,
+          "Power": 2,
+          "Quantity": 5
+        }
+      ],
+      "ServiceTime": "7x24小時",
+      "ParkingRate": "免費",
+      "ChargingRate": "iParking會員10元/度電",
+      "Floors": "1樓",
+      "UsageRestriction": "本充電站限會員使用",
+      "PhotoURLs": [],
+      "Location": {
+        "Freeway": {
+          "Road": "國道3號",
+          "ServiceArea": "關西服務區"
+        },
+        "Address": {
+          "City": "新竹縣",
+          "Town": "關西鎮",
+          "Road": "東安里上三屯",
+          "Lane": "",
+          "Alley": "",
+          "No": "14號"
+        }
+      },
+      "Telephone": "0800-600-098"
+    },
+    {
+      "StationID": "33029464-S0324",
+      "StationName": "泰安服務區 南向",
+      "Description": "小型車停車區，近國道公路警察局，現場備有一支TPC轉CCS1轉接頭。駛入服務區第一個小叉路右轉即可進入充電站",
+      "OperatorID": "33029464",
+      "OperationType": 1,
+      "PositionLat": 24.32973,
+      "PositionLon": 120.71107,
+      "Spaces": 10,
+      "ChargingPoints": 10,
+      "Connectors": [
+        {
+          "Type": 1,
+          "Power": 2,
+          "Quantity": 5
+        },
+        {
+          "Type": 2,
+          "Power": 2,
+          "Quantity": 5
+        }
+      ],
+      "ServiceTime": "7x24小時",
+      "ParkingRate": "免費",
+      "ChargingRate": "iParking會員10元/度電",
+      "Floors": "1樓",
+      "UsageRestriction": "本充電站限會員使用",
+      "PhotoURLs": [],
+      "Location": {
+        "Freeway": {
+          "Road": "國道1號",
+          "ServiceArea": "泰安服務區 南向"
+        },
+        "Address": {
+          "City": "台中市",
+          "Town": "后里區",
+          "Road": "安眉路",
+          "Lane": "",
+          "Alley": "",
+          "No": "113號"
+        }
+      },
+      "Telephone": "0800-600-098"
+    },
+    {
+      "StationID": "33029464-S0325",
+      "StationName": "泰安服務區 北向",
+      "Description": "大貨車停車H區 (供小型車充電)，現場備有一支TPC轉CCS1轉接頭",
+      "OperatorID": "33029464",
+      "OperationType": 1,
+      "PositionLat": 24.32792,
+      "PositionLon": 120.7156,
+      "Spaces": 10,
+      "ChargingPoints": 10,
+      "Connectors": [
+        {
+          "Type": 1,
+          "Power": 2,
+          "Quantity": 5
+        },
+        {
+          "Type": 2,
+          "Power": 2,
+          "Quantity": 5
+        }
+      ],
+      "ServiceTime": "7x24小時",
+      "ParkingRate": "免費",
+      "ChargingRate": "iParking會員10元/度電",
+      "Floors": "1樓",
+      "UsageRestriction": "本充電站限會員使用",
+      "PhotoURLs": [],
+      "Location": {
+        "Freeway": {
+          "Road": "國道1號",
+          "ServiceArea": "泰安服務區 北向"
+        },
+        "Address": {
+          "City": "台中市",
+          "Town": "后里區",
+          "Road": "月眉里九甲七路",
+          "Lane": "",
+          "Alley": "",
+          "No": "400號"
+        }
+      },
+      "Telephone": "0800-600-098"
+    },
+    {
+      "StationID": "33029464-S0326",
+      "StationName": "蘇澳服務區",
+      "Description": "小型車停車 I 區，現場備有一支TPC轉CCS1轉接頭",
+      "OperatorID": "33029464",
+      "OperationType": 1,
+      "PositionLat": 24.62156,
+      "PositionLon": 121.8171,
+      "Spaces": 4,
+      "ChargingPoints": 4,
+      "Connectors": [
+        {
+          "Type": 1,
+          "Power": 2,
+          "Quantity": 2
+        },
+        {
+          "Type": 2,
+          "Power": 2,
+          "Quantity": 2
+        }
+      ],
+      "ServiceTime": "7x24小時",
+      "ParkingRate": "免費",
+      "ChargingRate": "iParking會員10元/度電",
+      "Floors": "1樓",
+      "UsageRestriction": "本充電站限會員使用",
+      "PhotoURLs": [],
+      "Location": {
+        "Freeway": {
+          "Road": "國道5號",
+          "ServiceArea": "蘇澳服務區"
+        },
+        "Address": {
+          "City": "宜蘭縣",
+          "Town": "蘇澳鎮",
+          "Road": "新城里蘇新路",
+          "Lane": "",
+          "Alley": "",
+          "No": "81號"
+        }
+      },
+      "Telephone": "0800-600-098"
+    },
+    {
+      "StationID": "33029464-S0327",
+      "StationName": "仁德服務區南向",
+      "Description": "小型車停車區，現場備有一支TPC轉CCS1轉接頭。駛入服務區第一個小叉路右轉即可進入充電站",
+      "OperatorID": "33029464",
+      "OperationType": 1,
+      "PositionLat": 22.90633,
+      "PositionLon": 120.26489,
+      "Spaces": 6,
+      "ChargingPoints": 6,
+      "Connectors": [
+        {
+          "Type": 1,
+          "Power": 2,
+          "Quantity": 3
+        },
+        {
+          "Type": 2,
+          "Power": 2,
+          "Quantity": 3
+        }
+      ],
+      "ServiceTime": "7x24小時",
+      "ParkingRate": "免費",
+      "ChargingRate": "iParking會員10元/度電",
+      "Floors": "1樓",
+      "UsageRestriction": "本充電站限會員使用",
+      "PhotoURLs": [],
+      "Location": {
+        "Freeway": {
+          "Road": "國道1號",
+          "ServiceArea": "仁德服務區南向"
+        },
+        "Address": {
+          "City": "台南市",
+          "Town": "仁德區",
+          "Road": "中洲路",
+          "Lane": "1巷",
+          "Alley": "",
+          "No": "220號"
+        }
+      },
+      "Telephone": "0800-600-098"
+    },
+    {
+      "StationID": "33029464-S0328",
+      "StationName": "仁德服務區北向",
+      "Description": "小型車停車區，現場備有一支TPC轉CCS1轉接頭，近星巴克咖啡",
+      "OperatorID": "33029464",
+      "OperationType": 1,
+      "PositionLat": 22.90612,
+      "PositionLon": 120.26638,
+      "Spaces": 4,
+      "ChargingPoints": 4,
+      "Connectors": [
+        {
+          "Type": 1,
+          "Power": 2,
+          "Quantity": 2
+        },
+        {
+          "Type": 2,
+          "Power": 2,
+          "Quantity": 2
+        }
+      ],
+      "ServiceTime": "7x24小時",
+      "ParkingRate": "免費",
+      "ChargingRate": "iParking會員10元/度電",
+      "Floors": "1樓",
+      "UsageRestriction": "本充電站限會員使用",
+      "PhotoURLs": [],
+      "Location": {
+        "Freeway": {
+          "Road": "國道1號",
+          "ServiceArea": "仁德服務區北向"
+        },
+        "Address": {
+          "City": "台南市",
+          "Town": "仁德區",
+          "Road": "中洲路",
+          "Lane": "1巷",
+          "Alley": "",
+          "No": "200號"
+        }
+      },
+      "Telephone": "0800-600-098"
+    }
+  ]
+}
