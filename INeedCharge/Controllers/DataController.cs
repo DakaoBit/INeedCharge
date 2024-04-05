@@ -1,9 +1,5 @@
-﻿using INeedCharge.Models;
-using INeedCharge.Services;
+﻿using INeedCharge.Services;
 using Microsoft.AspNetCore.Mvc;
-using System.IO.Compression;
-using System.Net.Http.Headers;
-using System.Text.Json;
 
 namespace INeedCharge.Controllers
 {
@@ -11,7 +7,7 @@ namespace INeedCharge.Controllers
     [Route("[controller]")]
     public class DataController: ControllerBase
     {
-     
+
         private readonly string TOKEN_URI = $"https://tdx.transportdata.tw/auth/realms/TDXConnect/protocol/openid-connect/token";
         private static readonly string API_PREFIX = $"https://tdx.transportdata.tw/api/basic";
 
@@ -49,10 +45,10 @@ namespace INeedCharge.Controllers
         /// </summary>
         private readonly string API_FREEWAY_CONNECTORLIVESTATUS_URI = $"{API_PREFIX}/v1/EV/ConnectorLiveStatus/Freeway/ServiceArea";
         #endregion
- 
+
         public DataController()
         {
-          
+
         }
 
 
