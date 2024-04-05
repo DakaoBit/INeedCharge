@@ -79,6 +79,29 @@ namespace INeedCharge.Controllers
         }
 
         /// <summary>
+        /// 服務區充電站 下拉清單
+        /// </summary>
+        /// <returns></returns>
+        [HttpGet(nameof(GetSelectStationList))]
+        public IActionResult GetSelectStationList()
+        {
+            List<dynamic> selectList = new List<dynamic>
+            {
+                new { stationID = "33029464-S0303", stationName ="湖口服務區南站" },
+                new { stationID = "33029464-S0304", stationName ="湖口服務區北站" },
+                new { stationID = "33029464-S0305", stationName ="清水服務區" },
+                new { stationID = "33029464-S0306", stationName ="東山服務區" },
+                new { stationID = "33029464-S0322", stationName ="關西服務區" },
+                new { stationID = "33029464-S0324", stationName ="泰安服務區 南向" },
+                new { stationID = "33029464-S0325", stationName ="泰安服務區 北向" },
+                new { stationID = "33029464-S0326", stationName ="蘇澳服務區" },
+                new { stationID = "33029464-S0327", stationName ="仁德服務區南向" },
+                new { stationID = "33029464-S0328", stationName ="仁德服務區北向" },
+            };
+            return Ok(selectList);
+        }
+
+        /// <summary>
         ///  服務區充電站資訊
         /// </summary>
         /// <returns></returns>
