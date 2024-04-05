@@ -55,6 +55,16 @@ try
     // Add services to the container.
     builder.Services.AddControllersWithViews();
 
+    builder.Services.AddCors(options =>
+    {
+        options.AddPolicy("CorsPolicy", builder => builder
+               .WithOrigins("http://127.0.0.1:5173") 
+               .WithOrigins("http://localhost:5173") 
+               .AllowAnyMethod()
+               .AllowAnyHeader()
+               .AllowCredentials());
+    });
+
     var app = builder.Build();
 
     // Configure the HTTP request pipeline.
@@ -64,7 +74,7 @@ try
         // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
         app.UseHsts();
     }
-
+    app.UseCors("CorsPolicy");
     app.UseHttpsRedirection();
     app.UseStaticFiles();
 
