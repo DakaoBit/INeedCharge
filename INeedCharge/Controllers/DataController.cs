@@ -106,9 +106,9 @@ namespace INeedCharge.Controllers
         /// </summary>
         /// <returns></returns>
         [HttpGet(nameof(GetStationList))]
-        public IActionResult GetStationList()
+        public IActionResult GetStationList(string stationID)
         {
-            return Ok(ChargeService.GetStationList());
+            return Ok(ChargeService.GetStationList(stationID));
         }
         #endregion
     }

@@ -42,10 +42,10 @@ namespace INeedCharge.Services
         }
 
         /// <summary>
-        /// 
+        /// 取得充電站資訊
         /// </summary>
         /// <returns></returns>
-        public static List<Station> GetStationList()
+        public static List<Station> GetStationList(string? stationID)
         {
             string filePath = Path.Combine(Directory.GetCurrentDirectory(), "Jsons/Stations.json");
 
@@ -56,7 +56,10 @@ namespace INeedCharge.Services
             var deserializedData = JsonSerializer.Deserialize<Dictionary<string, List<Station>>>(json);
             List<Station> stations = deserializedData["Stations"];
 
-            return stations.ToList();
+            if(!string.IsNullOrEmpty(stationID))
+                stations = stations.Where(x => x.StationID == stationID).ToList();
+
+            return stations;
         }
     }
 }
