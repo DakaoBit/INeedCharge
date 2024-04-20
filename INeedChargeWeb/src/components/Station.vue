@@ -107,7 +107,7 @@ export default {
             },
             api: {
                 selectStation: getApiUrl('SelectStation'),
-                station: getApiUrl('Station')
+                station: getApiUrl('GetOneStation')
             },
             result: {
                 station: [],

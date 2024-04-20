@@ -3,8 +3,8 @@ export function getApiUrl (apicode) {
     const host = window.location.origin;
 
     const env = {
-        "http://localhost:5173":"http://localhost:5198", 
-        "http://127.0.0.1:5173":"http://127.0.0.1:5198",
+        "http://localhost:3000":"http://localhost:5198", 
+        "http://127.0.0.1:3000":"http://127.0.0.1:5198",
     }
 
     const urlMap = new Map([
@@ -13,7 +13,8 @@ export function getApiUrl (apicode) {
         //API
         ["Operator", env[host]+ "/data/GetOneOperator"],
         ["SelectStation", env[host]+ "/data/GetSelectStationList"],
-        ["Station", env[host]+ "/data/GetStationList"],
+        ["GetOneStation", env[host]+ "/data/GetOneStation"],
+        ["GetStationPositionList", env[host]+ "/data/GetStationPositionList"],
  
 
     ])
@@ -44,3 +45,18 @@ export async function fetchGet(apiUrl,params){
         }
     });
 };
+
+export async function fetchPost(apiUrl,data){
+    return new Promise(async (resolve,reject) => {
+        const rawResponse = await fetch(apiUrl, {
+            method: 'POST',
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json',
+                'X-Goog-Api-Key': import.meta.env.VITE_GOOGLE_MAPS_API_KEY
+            },
+            body: JSON.stringify(data)
+        });
+        resolve(rawResponse.json()); // 正確完成的回傳方法
+    });
+}
