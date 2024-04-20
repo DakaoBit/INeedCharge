@@ -138,4 +138,11 @@
         public int Quantity { get; set; }
     }
 
+    public class position
+    {
+        public string StationName { get; set; }
+        public double lat { get; set; }
+        public double lng { get; set; }
+    }
+
 }

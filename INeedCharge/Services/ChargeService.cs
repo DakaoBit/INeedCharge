@@ -45,7 +45,7 @@ namespace INeedCharge.Services
         /// 取得充電站資訊
         /// </summary>
         /// <returns></returns>
-        public static List<Station> GetStationList(string? stationID)
+        public static List<Station> GetOneStation(string? stationID)
         {
             string filePath = Path.Combine(Directory.GetCurrentDirectory(), "Jsons/Stations.json");
 
@@ -61,5 +61,26 @@ namespace INeedCharge.Services
 
             return stations;
         }
+
+        /// <summary>
+        /// 取得充電站的經緯度
+        /// </summary>
+        /// <returns></returns>
+        public static List<position> GetStationPositionList()
+        {
+            string filePath = Path.Combine(Directory.GetCurrentDirectory(), "Jsons/Stations.json");
+ 
+            string json = File.ReadAllText(filePath);
+            var deserializedData = JsonSerializer.Deserialize<Dictionary<string, List<Station>>>(json);
+            List<Station> stations = deserializedData["Stations"];
+            List<position> positionsList = stations.Select(x => new position {
+                StationName = x.StationName,
+                lat = (double)x.PositionLat, 
+                lng = (double)x.PositionLon }).ToList();
+         
+            return positionsList;
+        }
+
+    
     }
 }

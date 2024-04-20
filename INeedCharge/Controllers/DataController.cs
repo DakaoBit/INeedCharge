@@ -105,10 +105,18 @@ namespace INeedCharge.Controllers
         ///  服務區充電站資訊
         /// </summary>
         /// <returns></returns>
-        [HttpGet(nameof(GetStationList))]
-        public IActionResult GetStationList(string stationID)
+        [HttpGet(nameof(GetOneStation))]
+        public IActionResult GetOneStation(string stationID)
         {
-            return Ok(ChargeService.GetStationList(stationID));
+            return Ok(ChargeService.GetOneStation(stationID));
+        }
+
+        [HttpGet(nameof(GetStationPositionList))]
+        public IActionResult GetStationPositionList()
+        {
+           var positionsList = ChargeService.GetStationPositionList();
+
+            return Ok( new {position = positionsList });
         }
         #endregion
     }
